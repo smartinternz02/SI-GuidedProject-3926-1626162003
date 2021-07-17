@@ -1,0 +1,9 @@
+<launch>
+<!--my first launch file-->
+<node pkg="ros_topics" type="publisher.py" name="publisher" output="screen">
+</node>
+
+<node pkg="ros_topics" type="subscriber.py" name="subscriber" output="screen">
+</node>
+
+</launch>
