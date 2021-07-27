@@ -103,7 +103,8 @@ reading. -->
       <updateRate>20.0</updateRate>
     </plugin>
 </gazebo>
-
+    
+<!--gps plugin-->
 <gazebo>  
     <plugin name="gps" filename="libhector_gazebo_ros_gps.so">  
         <updateRate>10.0</updateRate>  
